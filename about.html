@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <title>Hello, world!</title>
+    <style>
+        /* Animation */
+
+        @keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0)
+            }
+
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0)
+            }
+
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1
+            }
+        }
+
+        .animated {
+            animation-duration: 3s;
+            animation-fill-mode: both;
+            -webkit-animation-duration: 4s;
+            -webkit-animation-fill-mode: both
+        }
+
+        .animatedFadeInUp {
+            opacity: 0
+        }
+
+        .fadeInUp {
+            opacity: 0;
+            animation-name: fadeInUp;
+            -webkit-animation-name: fadeInUp;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><img src="https://img.icons8.com/ios/50/000000/contacts.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form method="GET" action="https://digibit2890.typeform.com/to/VWMlUvv2">
+                <div class="wrap">
+                    <button class="button mx-4" type="submit">Register</button>
+                </div>
+            </form>
+
+        </div>
+    </nav>
+
+
+    <div class="container my-4">
+        <h1 style="text-align: center; background-color: antiquewhite;">OUR COURSES</h1>
+
+
+        <ul class="cards fadeInUp animated animatedFadeInUp">
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://source.unsplash.com/1600x900/?coding"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">JavaScript</h2>
+                        <p class="card_text">JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
+                            While it is most well-known as the scripting language for Web pages.
+                        </p>
+                        <button class="btn card_btn">Read More</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://source.unsplash.com/1600x900/?javascript"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Python</h2>
+                        <p class="card_text">Python is an interpreted, high-level, general-purpose programming language.
+                            It is also a very powerfull language and comes under top 5 languages.
+                        </p>
+                        <button class="btn card_btn">Read More</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://source.unsplash.com/1600x900/?python"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Flask</h2>
+                        <p class="card_text">Django is a Python-based free and open-source web framework that follows
+                            the model-template-view architectural pattern.</p>
+                        <button class="btn card_btn">Read More</button>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+
+
+    </div>
+
+    <footer class="container-fluid bg-dark my-0 py-3 text-light">
+        <p class="mb-0 text-center">&copy; 2020-2021 digibit.xyz</p>
+        <p class="mb-0 text-center">
+            <a href="#">Back to top |</a>
+            <a href="#">Privacy |</a>
+            <a href="#">Terms</a>
+        </p>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
